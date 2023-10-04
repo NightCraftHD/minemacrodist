@@ -1,5 +1,11 @@
 # minemacrodist
+
+#MineMacro
+
 MineMacro distributable. Open Source Minecraft Macro/Farm Controller Software. 
+
+
+##Installation
 
 Unzip the .zip located in Releases. If you get an Anti-Virus alert after unzipping you have to allow the Installer on your PC. 
 
