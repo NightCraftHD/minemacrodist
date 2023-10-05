@@ -5,6 +5,22 @@
 MineMacro is an OpenSource Minecraft Macro Software. It lets you control your character to automate semi-automatic farms or any other repetative task. It has a simple GUI and Macro Profiles are save- and loadable. Macros will only play while using any Minecraft version on the normal Minecraft launcher or Lunar Client (more support coming soon).
 
 
+## Table of Contents
+
+- [minemacrodist](#minemacrodist)
+- [MineMacro](#minemacro)
+  * [Installation](#installation)
+    + [Allow MineMacro on Windows Defender](#allow-minemacro-on-windows-defender--windows-11--)
+    + [Run with Python](#run-python)
+  * [Use MineMacro](#use-minemacro)
+    + [GUI](#gui-)
+    + [Explanation](#explanation-)
+  * [Issues](#issues)
+
+
+
+
+
 ## Installation
 
 Unzip the .zip located in Releases. If you get an Anti-Virus alert after unzipping you have to allow the Installer on your PC. If you don't trust it, you will have to compile the python program yourself. If Python is intalled this isn't hard. More to that later.
@@ -51,7 +67,7 @@ Or Click Allow on Device
 After this run the installation. When the installation is finished you can launch it from the windows start menu or if selected a Desktop-Shortcut.
 
 
-### Run Python
+### Run with Python
 
 Make sure Python and PIP are installed. Then run the following commands:
 
@@ -72,13 +88,13 @@ python GUI.py
 
 ### GUI:
 
-1: Action selector: Click actions to use them. They will appear in the action panel (left). Actions will be explained later.
+##### **1: Action selector**: Click actions to use them. They will appear in the action panel (left). Actions will be explained later.
 
-2: Control center: Start or Stop the Macro. Clear will clear the action panel.
+##### **2: Control center**: Start or Stop the Macro. Clear will clear the action panel.
 
-3: Action panel: Displays all actions that have been selected. 
+##### **3: Action panel**: Displays all actions that have been selected. 
 
-4: File Selector: Save your design to a MineMacro file or load on old one. Files can also be shared with others, although **I don't recommend using files from people you cannot trust**.
+##### **4: File Selector**: Save your design to a MineMacro file or load on old one. Files can also be shared with others, although **I don't recommend using files from people you cannot trust**.
 
 ![1 (15)](https://github.com/NightCraftHD/minemacrodist/assets/66378341/d35cd136-d532-47d8-af1a-b69d59a7d2fc)
 
@@ -86,25 +102,35 @@ python GUI.py
 
 #### Action Explanation
 
-Move Forwards: Move forwards the selected number of blocks (This will never be 100% accurate. I recommend not using for exact movements) e. g. collecting xp from a farm
+**Move Forwards:**
+Move forwards the selected number of blocks (This will never be 100% accurate. I recommend not using for exact movements) e. g. collecting xp from a farm
 
-Move Backwards: Move backwards the selected number of blocks
+**Move Backwards:** 
+Move backwards the selected number of blocks
 
-Move Right: Move right the selected number of blocks
+**Move Right:**
+Move right the selected number of blocks
 
-Move Left: Move left the selected number of blocks
+**Move Left:** 
+Move left the selected number of blocks
 
-Attack: Clicks once -> Hit
+**Attack:** 
+Clicks once -> Hit
 
-Break: Select the number of seconds the LMB is pressed -> Break
+**Break:** 
+Select the number of seconds the LMB is pressed -> Break
 
-Eat: Select the slot ywhere your food it. The program will automatically eat. If you are using an item (e. g. Pickaxe, Sword) you will need to switch back to it using the slot action.
+**Eat:** 
+Select the slot ywhere your food it. The program will automatically eat. If you are using an item (e. g. Pickaxe, Sword) you will need to switch back to it using the slot action.
 
-Anti AFK: Moves mouse around. This will always move the mouse back to the same spot, regardless of sensitivity.
+**Anti AFK:** 
+Moves mouse around. This will always move the mouse back to the same spot, regardless of sensitivity.
 
-Wait: Wait selected amount of seconds.
+**Wait:** 
+Wait selected amount of seconds.
 
-Slot: Select a slot to switch to.
+**Slot:**
+Select a slot to switch to.
 
 All actions can be used as many times as you would like.
 
